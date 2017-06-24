@@ -8,7 +8,6 @@ Open source call flooder written in C# using Twilio API.
 `
 $ git clone https://github.com/Jfaler/soup
 `
-Microsoft Visual Studio 15
 
 ## Usage
 
