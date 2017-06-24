@@ -1,5 +1,5 @@
 # soup
-Open source call flooder using Twilio API.
+Open source call flooder written in c# using Twilio API
 
 ## Version 
 1.0.0.0
