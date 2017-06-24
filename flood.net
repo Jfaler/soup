@@ -28,5 +28,8 @@ namespace CallBomber
 	    
 	    var count = 1;
 	    do
+	    {
+	        Console.WriteLine("Starting Call Batch " + count.ToString() +" ["+ numbers.Count + " Nums.)");
+		
 	}
 	}
