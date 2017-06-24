@@ -1,4 +1,4 @@
 # soup
-Call flooder using Twilio
+Open source call flooder using Twilio API
 
 
