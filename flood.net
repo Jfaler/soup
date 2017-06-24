@@ -22,5 +22,11 @@ namespace CallBomber
 	    Console.WriteLine("Enter the number to flood (+1 MUST BE IN FRONT!):")
 	    NumToCall = Console.ReadLine(); 
 	    Console.WriteLine("Press ENTER to start the flooder, Otherwise exit the application right now..."
+	    Console.Readtime(); 
+	    Console.Clear(); 
+	    TwilioClient.Init(account$id,authToken);
+	    
+	    var count = 1;
+	    do
 	}
 	}
