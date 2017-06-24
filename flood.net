@@ -1,3 +1,6 @@
+/*
+Fork this code! 
+*/
 using System; 
 using System.Collections.Generic;
 using Ststem.Linq;
@@ -27,6 +30,7 @@ namespace CallBomber
 	    TwilioClient.Init(account$id,authToken);
 	    
 	    var count = 1;
+	    // do while loop 
 	    do
 	    {
 	        Console.WriteLine("Starting Call Batch " + count.ToString() +" ["+ numbers.Count + " Nums.)");
