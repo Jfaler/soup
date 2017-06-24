@@ -34,6 +34,15 @@ namespace CallBomber
 	    do
 	    {
 	        Console.WriteLine("Starting Call Batch " + count.ToString() +" ["+ numbers.Count + " Nums.)");
+		foreach(string num in numbers)
+		{
+		    Call(num); 
+		    System.Threading.Thread.Sleep(1000);
+		}
+		count++; 
+		System.Threading.Thread.Sleep(5000);
+	      }while(true);
+	  }
 		
 	}
 	}
