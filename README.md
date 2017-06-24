@@ -6,7 +6,7 @@ Open source call flooder written in C# using Twilio API.
 
 ## Installation
 `
-git clone https://github.com/Jfaler/soup
+$ git clone https://github.com/Jfaler/soup
 `
 
 ## Usage
@@ -15,7 +15,8 @@ TODO: Write usage instructions
 
 ## TODO 
 
-The code still needs transcribing.
+1. The code still needs transcribing.
+2. Fix compiler errors.
 
 ## Contributing
 
