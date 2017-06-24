@@ -15,7 +15,7 @@ namespace CallBomber
     {
 	public static string accountsid = "*********"; 
 	public static string authtoken = "*********";
-	public static List<string> numbers = new List<string>(new string[] { "+10000000", "+10000000", }); // Replace "" with phone numbers
+	public static List<string> numbers = new List<string>(new string[] { "+10000000000", "+10000000000", }); // Replace "" with phone numbers
 	public static List<string> numbersInUse = new List<string>();
 	public static string NumToCall = "";
 	static void Main(string[] args)
@@ -33,7 +33,7 @@ namespace CallBomber
 	    // do while loop 
 	    do
 	    {
-	        Console.WriteLine("Starting Call Batch " + count.ToString() +" ["+ numbers.Count + " Nums.)");
+	        Console.WriteLine("Starting Call Batch " + count.ToString() +" ["+ numbers.Count + " Nums.)"); // this line needs to be fixed
 		foreach(string num in numbers)
 		{
 		    Call(num); 
