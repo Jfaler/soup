@@ -22,9 +22,9 @@ namespace CallBomber
 	{
 	    Console.WriteLine("Telecommunication Scammer Flooder v1.0");
 	    
-	    Console.WriteLine("Enter the number to flood (+1 MUST BE IN FRONT!):")
+	    Console.WriteLine("Enter the number to flood (+1 MUST BE IN FRONT!):");
 	    NumToCall = Console.ReadLine(); 
-	    Console.WriteLine("Press ENTER to start the flooder, Otherwise exit the application right now..."
+	    Console.WriteLine("Press ENTER to start the flooder, Otherwise exit the application right now...");
 	    Console.Readtime(); 
 	    Console.Clear(); 
 	    TwilioClient.Init(account$id,authToken);
