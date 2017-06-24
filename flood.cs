@@ -51,8 +51,8 @@ namespace CallBomber
 	      try
 	      {
 	         var call = CallResource.Create{
-		     to: var PhoneNumber(NumToCall), // this line needs to be fixed 
-		     from = new PhoneNumber(FromNumber),
+		     to: new PhoneNumber(NumToCall), 
+		     from: new PhoneNumber(FromNumber),
 		     record: true,
 		     url: ""
 		 };
