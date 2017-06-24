@@ -5,8 +5,9 @@ Open source call flooder written in C# using Twilio API.
 1.0.0.0
 
 ## Installation
-
-TODO: Describe the installation process
+`
+git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+`
 
 ## Usage
 
