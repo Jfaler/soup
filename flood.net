@@ -56,8 +56,12 @@ namespace CallBomber
 		     record: true,
 		     url: ""
 		 };
+		 Console.WriteLine(string.format($"Started call to :"{call,To}, from: {FrontNumber}*));   // This line needs to be fixed.
 	      }
-	      catch(Exception )
+	      catch(Exception Ex)
+	      {
+	          Console.WriteLine(string.Format($"Error on number {FromNumber}: {e.Message}"));
+	      }
 		
-	}
+	   }
 	}
