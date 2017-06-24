@@ -11,7 +11,7 @@ $ git clone https://github.com/Jfaler/soup
 
 ## Usage
 
-TODO: Write usage instructions 
+Microsoft Visual Studio 2015
 
 ## TODO 
 
