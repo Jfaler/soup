@@ -15,7 +15,7 @@ namespace CallBomber
     {
 	public static string accountsid = "*********"; 
 	public static string authtoken = "*********";
-	public static List<string> numbers = new List<string>(new string[] { "+10000000", "+10000000", }
+	public static List<string> numbers = new List<string>(new string[] { "+10000000", "+10000000", } // Replace "" with phone numbers
 	public static List<string> numbersInUse = new List<string>();
 	public static string NumToCall = "";
 	static void Main(string[] args)
@@ -60,8 +60,9 @@ namespace CallBomber
 	      }
 	      catch(Exception Ex)
 	      {
-	          Console.WriteLine(string.Format($"Error on number {FromNumber}: {e.Message}"));
+	         Console.WriteLine(string.Format($"Error on number {FromNumber}: {e.Message}"));
 	      }
 		
 	   }
 	}
+}
