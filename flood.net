@@ -15,4 +15,8 @@ namespace CallBomber
 	public static List<string> numbers = new List<string>(new string[] { "+10000000", "+10000000", 
 	public static List<string> numbersInUse = new List<string>();
 	public static string NumToCall = "";
+	static void Main(string[] args)
+	{
+	    Console.WriteLine("Telecommunication Scammer Flooder v1.0");
+	}
 	}
