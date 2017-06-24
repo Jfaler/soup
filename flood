@@ -1,0 +1,16 @@
+using System; 
+using System.Collections.Generic;
+using Ststem.Linq;
+using System.Diagnostics;
+using System.Text;
+using System.Threading.Tasks; 
+using Twilio;
+
+namespace CallBomber
+{
+    class Program
+    {
+	public static string accountsid = "*********"; 
+	public static string authtoken = "*********";
+	public static List<string> numbers = new List<string>
+	}
