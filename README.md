@@ -14,6 +14,8 @@ TODO: Write usage instructions
 
 ## TODO 
 
+The code still needs transcribing.
+
 ## Contributing
 
 1. Fork it!
