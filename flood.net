@@ -43,6 +43,13 @@ namespace CallBomber
 		System.Threading.Thread.Sleep(5000);
 	      }while(true);
 	  }
+	  
+	  // Call Function
+	  
+	  static void Call(string fromNumber)
+	  {
+	      try
+	      {
 		
 	}
 	}
