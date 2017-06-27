@@ -1,4 +1,3 @@
-[![GitHub stars](https://img.shields.io/github/stars/Jfaler/soup.svg)](https://github.com/Jfaler/soup/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/Jfaler/soup.svg)](https://github.com/Jfaler/soup/network)
 # Soup
 Open source call flooder written in C# using Twilio API.
