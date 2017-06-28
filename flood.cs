@@ -1,68 +1,72 @@
 /*
 Fork this code! 
 */
-using System; 
+using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Diagnostics;
 using System.Text;
-using System.Threading.Tasks; 
-using Twilio;
+using System.Threading.Tasks;
+using System.Linq;
+using Twilio; /* Run 'Install-Package Twilio' in NuGet Package Manager console */
+using Twilio.Rest.Api.V2010.Account;
+using Twilio.Types;
 
 namespace CallBomber
 {
     class Program
     {
-	public static string accountsid = "*********"; 
-	public static string authtoken = "*********";
-	public static List<string> numbers = new List<string>(new string[] { "+10000000000", "+10000000000", "+10000000000","+10000000000","+10000000000","+10000000000","+10000000000","+10000000000","+10000000000","+10000000000","+10000000000","+10000000000","+10000000000","+10000000000","+10000000000","+10000000000","+10000000000","+10000000000", }); // Replace "" with phone numbers
-	public static List<string> numbersInUse = new List<string>();
-	public static string NumToCall = "";
-	static void Main(string[] args)
-	{
-	    Console.WriteLine("Telecommunication Scammer Flooder v1.0");
-	    
-	    Console.WriteLine("Enter the number to flood (+1 MUST BE IN FRONT!):");
-	    NumToCall = Console.ReadLine(); 
-	    Console.WriteLine("Press ENTER to start the flooder, Otherwise exit the application right now...");
-	    Console.Readtime(); 
-	    Console.Clear(); 
-	    TwilioClient.Init(account$id,authToken);
-	    
-	    var count = 1;
-	    // do while loop 
-	    do
-	    {
-	        Console.WriteLine("Starting Call Batch " + count.ToString() +" ["+ numbers.Count + " Nums.)"); // this line needs to be fixed
-		foreach(string num in numbers)
-		{
-		    Call(num); 
-		    System.Threading.Thread.Sleep(1000);
-		}
-		count++; 
-		System.Threading.Thread.Sleep(5000);
-	      }while(true);
-	  }
-	  
-	  // Call Function
-	  
-	  static void Call(string FromNumber)
-	  {
-	      try
-	      {
-	         var call = CallResource.Create{
-		     to: new PhoneNumber(NumToCall), 
-		     from: new PhoneNumber(FromNumber),
-		     record: true,
-		     url: ""
-		 };
-		 Console.WriteLine(string.Format($"Started call to :"{call.To}, from: {FromNumber}"));   // This line needs to be fixed.
-	      }
-	      catch(Exception Ex)
-	      {
-	         Console.WriteLine(string.Format($"Error on number {FromNumber}: {e.Message}"));
-	      }
-		
-	   }
-	}
+        public static string accountsid = "*********";
+        public static string authtoken = "*********";
+        public static List<string> numbers = new List<string>(new string[] { "+10000000000", "+10000000000", "+10000000000", "+10000000000", "+10000000000", "+10000000000", "+10000000000", "+10000000000", "+10000000000", "+10000000000", "+10000000000", "+10000000000", "+10000000000", "+10000000000", "+10000000000", "+10000000000", "+10000000000", "+10000000000", }); // Replace "" with phone numbers
+        public static List<string> numbersInUse = new List<string>();
+        public static string NumToCall = "";
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Telecommunication Scammer Flooder v1.0");
+
+            Console.WriteLine("Enter the number to flood (+1 MUST BE IN FRONT!):");
+            NumToCall = Console.ReadLine();
+            Console.WriteLine("Press ENTER to start the flooder, Otherwise exit the application right now...");
+
+            Console.Clear();
+            TwilioClient.Init(accountsid, authtoken);
+
+            var count = 1;
+            // do while loop 
+            do
+            {
+                Console.WriteLine("Starting Call Batch " + count.ToString() + " [" + numbers.Count + " Nums.)"); // this line needs to be fixed
+                foreach (string num in numbers)
+                {
+                    Call(num);
+                    System.Threading.Thread.Sleep(1000);
+                }
+                count++;
+                System.Threading.Thread.Sleep(5000);
+            } while (true);
+        }
+
+        // Call Function
+
+        static void Call(string FromNumber)
+        {
+            try
+            {
+                var call = CallResource.Create(
+                     new PhoneNumber(NumToCall),
+                     new PhoneNumber(FromNumber),
+                     record: true,
+                     url: new Uri("/*A URL that returns TwiML markup*/")
+               );
+
+                Console.WriteLine(string.Format($"Started call to :" + call.To + " from: " + FromNumber));
+
+            }
+            catch (Exception Ex)
+            {
+                Console.WriteLine(string.Format($"Error on number {FromNumber}: {Ex.Message}"));
+            }
+
+        }
+    }
 }
