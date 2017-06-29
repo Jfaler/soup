@@ -34,7 +34,7 @@ namespace CallBomber
                       
             ");
 
-            Console.WriteLine("Enter the number to flood (+1 MUST BE IN FRONT!):");
+            Console.WriteLine("Enter the target number to start flood (+1 MUST BE IN FRONT!):");
             NumToCall = Console.ReadLine();
             Console.WriteLine("Press ENTER to start the flooder, Otherwise exit the application right now...");
             
