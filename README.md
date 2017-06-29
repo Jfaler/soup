@@ -11,6 +11,7 @@ Open source call flooder written in C# using Twilio API.
 `
 $ git clone https://github.com/Jfaler/soup
 `
+Run `Install-Package Twilio` in NuGet Package Manager console.
 
 ## Usage
 
@@ -18,8 +19,7 @@ Microsoft Visual Studio 2015
 
 ## TODO 
 
-1. The code still needs transcribing.
-2. Fix compiler errors.
+1. Play sound clip when launching attack.
 
 ## Contributing
 
