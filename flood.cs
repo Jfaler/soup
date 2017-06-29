@@ -1,4 +1,5 @@
 /*
+Justin Faler
 Fork this code! 
 */
 using System;
@@ -15,21 +16,30 @@ namespace CallBomber
 {
     class Program
     {
-        public static string accountsid = "*********";
+        public static string accountSid = "*********";
         public static string authtoken = "*********";
         public static List<string> numbers = new List<string>(new string[] { "+10000000000", "+10000000000", "+10000000000", "+10000000000", "+10000000000", "+10000000000", "+10000000000", "+10000000000", "+10000000000", "+10000000000", "+10000000000", "+10000000000", "+10000000000", "+10000000000", "+10000000000", "+10000000000", "+10000000000", "+10000000000", }); // Replace "" with phone numbers
         public static List<string> numbersInUse = new List<string>();
         public static string NumToCall = "";
         static void Main(string[] args)
         {
-            Console.WriteLine("Telecommunication Scammer Flooder v1.0");
+            Console.WriteLine(@"
+            
+   _____ ____  __  ______ 
+  / ___// __ \/ / / / __ \
+  \__ \/ / / / / / / /_/ /
+ ___/ / /_/ / /_/ / ____/ 
+/____/\____/\____/_/      
+                      
+            ");
 
             Console.WriteLine("Enter the number to flood (+1 MUST BE IN FRONT!):");
             NumToCall = Console.ReadLine();
             Console.WriteLine("Press ENTER to start the flooder, Otherwise exit the application right now...");
-
+            
+            Console.Readline();
             Console.Clear();
-            TwilioClient.Init(accountsid, authtoken);
+            TwilioClient.Init(accountSid, authtoken);
 
             var count = 1;
             // do while loop 
