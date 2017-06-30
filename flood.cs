@@ -38,7 +38,7 @@ namespace CallBomber
             NumToCall = Console.ReadLine();
             Console.WriteLine("Press ENTER to start the flooder, Otherwise exit the application right now...");
             
-            Console.Readline();
+            Console.ReadLine();
             Console.Clear();
             TwilioClient.Init(accountSid, authtoken);
 
