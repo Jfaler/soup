@@ -1,0 +1,15 @@
+{
+    "name": "zscally/php-soup",
+    "description": "PHP implementation of the C# soup call flood",
+    "type": "composer require twilio/sdk",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zachary Scally",
+            "email": "zscally@gmail.com"
+        }
+    ],
+    "require": {
+        "twilio/sdk": "^5.11"
+    }
+}
