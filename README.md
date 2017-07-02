@@ -1,4 +1,4 @@
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/Jfaler/soup/)
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/Jfaler/soup/blob/master/LICENSE.txt)
 [![GitHub forks](https://img.shields.io/github/forks/Jfaler/soup.svg)](https://github.com/Jfaler/soup/network)
 [![GitHub issues](https://img.shields.io/github/issues/jfaler/soup.svg)](https://github.com/jfaler/soup/issues)
 # Soup
