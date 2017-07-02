@@ -16,9 +16,23 @@ class flood
     protected $accountSid = "";
     protected $authToken = "";
 
+    /**
+     * You can either hard code your numbers below or passthem in on the command line
+     * php flood.php <victims_number> [numb1,numb2,num3,...]
+     *
+     * @var array
+     */
     private $numbers = [];
+
+    /**
+     * twilio client
+     * @var null|Client
+     */
     private $twilioClient = null;
 
+    /**
+     * @var target / victum to flood
+     */
     public $numberToCall;
 
 
@@ -26,12 +40,6 @@ class flood
     {
         //print soup logo
         $this->showLogo();
-
-        //set the numbers we're going to use to flood
-        $this->setNumbers([ //1 phone per line comma separated more the marrier!
-            ''
-        ]);
-
 
         //create our twilio client
         $this->twilioClient = new Client($this->accountSid, $this->authToken);
@@ -41,6 +49,21 @@ class flood
             CURLOPT_SSL_VERIFYHOST => false,
             CURLOPT_SSL_VERIFYPEER => false
         ]));
+
+        /**
+         * if argument 2 is being past let check to make sure it a list of json
+         * phone numbers and then try to load them in.
+         */
+
+        if( isset($args[2]) ) {
+            $this->setNumbers($args[2]);
+        }
+
+        //check to make sure $this->numbers is not empty\
+        if( empty($this->numbers) ) {
+            print('You must provide atleast one number example: php flood.php <target_number> [5555555555,5555555555,...]: no spaces' . "\n\n");
+            die();
+        }
 
         if( isset( $args[1] ) && $this->validatePhone($args[1]) ) {
             //start havoc!
@@ -91,13 +114,29 @@ class flood
 
     /**
      * @param array $numbers
-     * Simple method to set private var numbers
+     * Simple method to set private var numbers it takes a json string of numbers and converts them into an array.
     **/
-    public function setNumbers(array $numbers)
+    public function setNumbers($numbers)
     {
-        $this->numbers = $numbers;
+        try{
+            $nums = json_decode($numbers, true);
+            if( !empty($nums) && is_array($nums) ) {
+                $this->numbers = $nums;
+            } else {
+                throw new \Exception('Not a valid json string list of numbers must be past in like [5555555555,5555555555,...]: no spaces');
+            }
+        } catch (\Exception $e) {
+            print("Unable to parse phone number list: {$e->getMessage()}\n\n");
+        }
     }
 
+    /**
+     * This method checks with the twilio service that the number is valid before we try to make a call to it!
+     *  it does code 0.01cent per check but give usefull insight into the number.
+     *
+     * @param $toNumber
+     * @return bool
+     */
     private function validatePhone($toNumber)
     {
         try {
@@ -111,7 +150,7 @@ class flood
             return true;
 
         } catch (TwilioException $e) {
-            print("Invalid phone number to flood - {$e->getMessage()}");
+            print("Invalid phone number to flood - {$e->getMessage()}\n\n");
         }
         die();
     }
