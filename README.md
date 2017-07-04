@@ -4,6 +4,17 @@
 # Soup
 Open source call flooder using Twilio API.
 
+## Description 
+
+This type of attack is reffered to as a TDoS or Telephony Denial of Service attack.   
+
+## Scenarios 
+* Distributed stress testing 
+* Live testing
+  - Prove the new system is stable and find bugs that only occur in the real world
+* Regression testing
+* Performance comparison
+
 ## Version
 `
 1.0.0.0
