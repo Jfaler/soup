@@ -2,28 +2,43 @@
 [![GitHub forks](https://img.shields.io/github/forks/Jfaler/soup.svg)](https://github.com/Jfaler/soup/network)
 [![GitHub issues](https://img.shields.io/github/issues/jfaler/soup.svg)](https://github.com/jfaler/soup/issues)
 # Soup
-Open source call flooder written in C# using Twilio API.
+Open source call flooder using Twilio API.
 
 ## Version
 `
 1.0.0.0
 `
-## Installation
+## Prerequisites
 
 * Sign up https://www.twilio.com/try-twilio
 
+* Open Microsoft Visual Studio 2015 & run `Install-Package Twilio` in NuGet Package Manager console.
+
+
+## Installation
+
 * `$ git clone https://github.com/Jfaler/soup`
 
-* Open Microsoft Visual Studio 2015 & run `Install-Package Twilio` in NuGet Package Manager console.
 
 ## Usage
 
 Microsoft Visual Studio 2015
 
+
 ## TODO 
 
-1. Play sound clip when launching attack.
-2. Login Form
+1. Python & Nodejs implementation
+2. Tutorial
+
+
+## Authors
+
+* **Justin Faler** - *Initial work* - [Jfaler](https://github.com/Jfaler)
+
+* **Zachary Scally** - *Initial work* - [zscally](https://github.com/zscally)
+
+See also the list of [contributors](https://github.com/Jfaler/soup/contributors) who participated in this project.
+
 
 ## Contributing
 
@@ -33,4 +48,6 @@ Microsoft Visual Studio 2015
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
 
+## License
 
+This project is licensed under the MIT License - see the LICENSE.md file for details.
