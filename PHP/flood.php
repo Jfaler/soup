@@ -13,6 +13,26 @@ use Twilio\Rest\Client;
 class flood
 {
 
+    /**
+     * This url defines what the listener will hear if they pick up the phone
+     * Typically you can just leave this set to this default mp3 referance from twilio
+     * however if you wish to play your own custom message you will need to follow the twilio
+     * XML format found here.
+     *
+     * https://www.twilio.com/docs/api/twiml
+     *
+     * The output should be in a format that twilio can read or you will get application errors.
+     *
+     * @var string
+     */
+    const TWILIO_XML_PAYLOAD = 'https://twimlets.com/holdmusic?Bucket=com.twilio.music.ambient';
+
+    /**
+     * Twilio Account SID
+     * Twiilo Auth Token
+     *
+     * @var string
+     */
     protected $accountSid = "";
     protected $authToken = "";
 
@@ -99,7 +119,7 @@ class flood
                 $fromNumber, // From a valid Twilio number
                 array(
                     'Record' => true,
-                    'url' => 'https://twimlets.com/holdmusic?Bucket=com.twilio.music.ambient'
+                    'url' => self::TWILIO_XML_PAYLOAD
                 )
             );
 
