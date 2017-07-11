@@ -28,6 +28,19 @@ class flood
     const TWILIO_XML_PAYLOAD = 'https://twimlets.com/holdmusic?Bucket=com.twilio.music.ambient';
 
     /**
+    * This property is use full for detecting answaring machines and possible avoiding a honey pot.
+    * when using this property, you'd have to have logic on your XML payload on how to handle the call
+    * it is not intuitive to just hang up the CALL on what it detects.
+    * https://www.twilio.com/docs/api/rest/answering-machine-detection
+    * https://support.twilio.com/hc/en-us/articles/223132567-Can-Twilio-tell-whether-a-call-was-answered-by-a-human-or-machine-
+    *
+    * By enabling this you are spending $0.0075 but could be saying alot more if your creating 15min voice mails...
+    *
+    * @var bool;
+    */
+    const TWILIO_AMD_ENABLED = false;
+
+    /**
      * Twilio Account SID
      * Twiilo Auth Token
      *
@@ -101,7 +114,7 @@ class flood
         } else {
             print("The First Argument must be a phone number to flood. (make sure you add +1 or country code to the number).\n");
         }
-        
+
     }
 
     /**
@@ -118,8 +131,9 @@ class flood
                 $this->numberToCall, // Call this number
                 $fromNumber, // From a valid Twilio number
                 array(
-                    'Record' => true,
-                    'url' => self::TWILIO_XML_PAYLOAD
+                    'Record'           => true,
+                    'url'              => self::TWILIO_XML_PAYLOAD,
+                    'MachineDetection' => self::TWILIO_AMD_ENABLED
                 )
             );
 
