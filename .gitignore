@@ -1,1 +1,38 @@
-.idea/*
+.vs/
+/$tf/*
+bin/
+obj/
+*.jmconfig
+*.jtconfig
+*.csproj.vspscc
+*.csproj.user
+*.csproj.DotSettings
+*.sln.DotSettings.user
+*.vssscc
+*.jtconfig
+*.Tests.xml
+TestResult.xml
+thumbs.db
+/Properties/DataSource/*.datasource
+*.suo
+*.swp
+*.swo
+*.orig
+node_modules/
+.vs/
+.idea/
+StyleCop.Cache
+
+# NuGet
+packages/
+!packages/repositories.config
+
+# Service References: the only important files
+# are Reference.cs and Reference.svcmap
+**/Service References/*/*.xsd
+**/Service References/*/*.disco
+**/Service References/*/*.svcinfo
+**/Service References/*/*.datasource
+**/Service References/*/*.wsdl
+!/Service References/*/Reference.cs
+!/Service References/*/Reference.svcmap
