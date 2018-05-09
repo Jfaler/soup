@@ -38,7 +38,7 @@ Microsoft Visual Studio 2015
 
 ## TODO 
 
-1. Python & Nodejs implementation
+1. Nodejs implementation
 2. Tutorial
 
 
@@ -47,6 +47,8 @@ Microsoft Visual Studio 2015
 * **Justin Faler** - *Initial work* - [Jfaler](https://github.com/Jfaler)
 
 * **Zachary Scally** - *Initial work* - [zscally](https://github.com/zscally)
+
+* **Jesse Morgan** - *Initial work* - [morgajel](https://github.com/morgajel)
 
 See also the list of [contributors](https://github.com/Jfaler/soup/contributors) who participated in this project.
 
