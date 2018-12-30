@@ -1,3 +1,6 @@
+<p align="center">
+<img src="https://i.imgur.com/q8jGMzt.png" width="140" align="center">
+  </p>
 <h1 align="center"> Soup </h1> <br>
 <p align="center">
   <a href="https://JustinFaler.com">
