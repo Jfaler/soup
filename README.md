@@ -7,6 +7,10 @@
   </a>
 </p>
 
+<p align="center">
+  Open source call flooder using Twilio API.
+</p>
+
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -21,8 +25,6 @@
 [![GitHub forks](https://img.shields.io/github/forks/Jfaler/soup.svg)](https://github.com/Jfaler/soup/network)
 [![GitHub issues](https://img.shields.io/github/issues/jfaler/soup.svg)](https://github.com/jfaler/soup/issues)
 [![](https://img.shields.io/twitter/follow/justinfaler.svg?label=Follow&style=social)](https://twitter.com/justinfaler)
-
-Open source call flooder using Twilio API.
 
 ## Description 
 
@@ -48,18 +50,13 @@ This type of attack is reffered to as a TDoS or Telephony Denial of Service atta
 
 ## Installation
 
-* `$ git clone https://github.com/Jfaler/soup`
-
-
-## Usage
-
-Microsoft Visual Studio 2015
-
+* `$ sudo git clone https://github.com/Jfaler/soup`
 
 ## TODO 
 
 1. Nodejs implementation
 2. Tutorial
+3. Login
 
 
 ## Authors
@@ -87,11 +84,11 @@ Want to report a bug, request a feature, contribute or translate Soup?
 
 * Browse our [issues](https://github.com/Jfaler/soup/issues), comment on proposals, report bugs.
 * Clone the Soup repo, make some changes according to our development guidelines and issue a pull-request with your changes.
-* Anything you want to tell us please send it to 📥 [jfaler216@student.msjc.edu](mailto:jfaler216@student.msjc.edu)
+* Anything you want to tell us please send it to: 📥 [jfaler216@student.msjc.edu](mailto:jfaler216@student.msjc.edu)
 * If you need technical support or customization service, contact us: 📥 [jfaler216@student.msjc.edu](mailto:jfaler216@student.msjc.edu)
 
 ## Donate
-Every satoshi of your kind donation goes into the ongoing work of making this project more awesome. Want to sponsor this project? Send a donation & logo to 📥 [jfaler216@student.msjc.edu](mailto:jfaler216@student.msjc.edu)
+Every satoshi of your kind donation goes into the ongoing work of making this project more awesome. Want to sponsor this project? Send a donation & logo to: 📥 [jfaler216@student.msjc.edu](mailto:jfaler216@student.msjc.edu)
 
 * BTC: 1FThmBBG2u8vx4i3wJ9eieNn8TtcaRnCfm
 * LTC: LR6PhnAtBDgrpbgRRFYR7RrYPtwVKFL2it
