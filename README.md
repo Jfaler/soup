@@ -87,25 +87,6 @@ Want to report a bug, request a feature, contribute or translate Soup?
 * Anything you want to tell us please send it to: 📥 [jfaler216@student.msjc.edu](mailto:jfaler216@student.msjc.edu)
 * If you need technical support or customization service, contact us: 📥 [jfaler216@student.msjc.edu](mailto:jfaler216@student.msjc.edu)
 
-## Donate
-Every satoshi of your kind donation goes into the ongoing work of making this project more awesome. Want to sponsor this project? Send a donation & logo to: 📥 [jfaler216@student.msjc.edu](mailto:jfaler216@student.msjc.edu)
-
-* BTC: 1FThmBBG2u8vx4i3wJ9eieNn8TtcaRnCfm
-* LTC: LR6PhnAtBDgrpbgRRFYR7RrYPtwVKFL2it
-* ETH: 0xf2340de658175e1644c778cde425088c1d5bef42
-* BCH: 18vvtPnorBzcwWMASCpzit2fEy4sdyAj3N
-* PPC: PCkcYE7Tj3KxTfsv845BfTXyvjymrE58mv
-* DOGE: D7sVRgd73WwEwAHiQQnHPf7xtweuu5KpaF
-* DASH: Xf8JmkAYkhnr7KLnsnW67XgQvY7Ug2g64h
-* DGB: D6zK1zqDkoQjRsvAc6jTFHYiyr7Sx2JNyu
-* ETC: 0xc7115312a0c6e4b8170d638090389e1f956a0b8c
-* BLK: BQttsstq3DF2f3BknCRJgG8ytVGXgJqsG5
-* GRS: FWDd5JidJJXwmxYAzQmFqrt9agEvgQLzdb
-* QRK: QinhSbgC7qtMNWj1JYpgG7FuEyBS939mra
-* XPM: ANZsFxGmRqKSsxdUEiJTYf7spn41F5fAs9
-* NMC: MyX2tzSiXg8RRBZsx6tvfLjHDBtY5vFcf3
-* NEO: AdPB4AUxK1LvSeJAAD14duX2HVDCDhEKXf
-
 ## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details.
