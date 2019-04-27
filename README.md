@@ -1,6 +1,3 @@
-<p align="center">
-<img src="https://i.imgur.com/q8jGMzt.png" width="140" align="center">
-  </p>
 <h1 align="center"> Soup </h1> <br>
 <p align="center">
   <a href="https://JustinFaler.com">
@@ -8,7 +5,7 @@
 </p>
 
 <p align="center">
-  Open source call flooder using Twilio API.
+  Open source call flooder using Twilio's API.
 </p>
 
 ## Table of Contents
@@ -18,7 +15,6 @@
 - [Scenarios](#scenarios)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Sponsors](#donate)
 
 # Introduction
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/Jfaler/soup/blob/master/LICENSE.txt)
@@ -50,7 +46,12 @@ This type of attack is reffered to as a TDoS or Telephony Denial of Service atta
 
 ## Installation
 
-* `$ sudo git clone https://github.com/Jfaler/soup`
+* <p>Sign up with <a target="_blank" href="https://m.do.co/c/397fb2277475">Digital Ocean</a><img width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+* Choose Ubuntu 18.04 LTS
+* `ssh root@replace_this_with_your_domain_or_ipaddress.com`
+* `sudo git clone https://github.com/Jfaler/soup`
+* `cd /soup/Python`
+* `python3 ./flood.py`
 
 ## TODO 
 
