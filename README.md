@@ -4,11 +4,23 @@
   </a>
 </p>
 
+<div align="center">
+  
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/Jfaler/soup/blob/master/LICENSE.txt)
+[![GitHub forks](https://img.shields.io/github/forks/Jfaler/soup.svg)](https://github.com/Jfaler/soup/network)
+[![GitHub issues](https://img.shields.io/github/issues/jfaler/soup.svg)](https://github.com/jfaler/soup/issues)
+[![](https://img.shields.io/twitter/follow/justinfaler.svg?label=Follow&style=social)](https://twitter.com/justinfaler)
+
+</div>
+
+---
+
 <p align="center">
   Open source call flooder using Twilio's API.
+     <br> 
 </p>
 
-## Table of Contents
+## 📝 Table of Contents
 
 - [Introduction](#introduction)
 - [Description](#description)
@@ -16,35 +28,27 @@
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 
-# Introduction
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/Jfaler/soup/blob/master/LICENSE.txt)
-[![GitHub forks](https://img.shields.io/github/forks/Jfaler/soup.svg)](https://github.com/Jfaler/soup/network)
-[![GitHub issues](https://img.shields.io/github/issues/jfaler/soup.svg)](https://github.com/jfaler/soup/issues)
-[![](https://img.shields.io/twitter/follow/justinfaler.svg?label=Follow&style=social)](https://twitter.com/justinfaler)
 
 ## Description 
 
 This type of attack is reffered to as a TDoS or Telephony Denial of Service attack.   
 
-## Scenarios 
+## 🎈 Scenarios 
 * Distributed stress testing 
 * Live testing
   - Prove the new system is stable and find bugs that only occur in the real world
 * Regression testing
 * Performance comparison
 
-## Version
-`
-1.0.0.0
-`
-## Prerequisites
+
+## 🔧 Prerequisites 
 
 * Sign up https://www.twilio.com/try-twilio
 
-* Open Microsoft Visual Studio 2015 & run `Install-Package Twilio` in NuGet Package Manager console.
+* For Microsoft Visual Studio 2015+ run `Install-Package Twilio` in NuGet Package Manager console.
 
 
-## Installation
+## 🚀 Installation & Deployment
 
 * <p>Sign up with <a target="_blank" href="https://m.do.co/c/397fb2277475">Digital Ocean</a><img width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
 * Choose Ubuntu 18.04 LTS
@@ -60,7 +64,7 @@ This type of attack is reffered to as a TDoS or Telephony Denial of Service atta
 3. Login
 
 
-## Authors
+## ✍️ Authors <a name = "authors"></a>
 
 * **Justin Faler** - *Initial work* - [Jfaler](https://github.com/Jfaler)
 
