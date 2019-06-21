@@ -89,8 +89,6 @@ Want to report a bug, request a feature, contribute or translate Soup?
 
 * Browse our [issues](https://github.com/Jfaler/soup/issues), comment on proposals, report bugs.
 * Clone the Soup repo, make some changes according to our development guidelines and issue a pull-request with your changes.
-* Anything you want to tell us please send it to: 📥 [jfaler216@student.msjc.edu](mailto:jfaler216@student.msjc.edu)
-* If you need technical support or customization service, contact us: 📥 [jfaler216@student.msjc.edu](mailto:jfaler216@student.msjc.edu)
 
 ## License
 
