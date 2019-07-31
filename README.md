@@ -4,21 +4,13 @@
   </a>
 </p>
 
-<div align="center">
-  
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/Jfaler/soup/blob/master/LICENSE.txt)
-[![GitHub forks](https://img.shields.io/github/forks/Jfaler/soup.svg)](https://github.com/Jfaler/soup/network)
-[![GitHub issues](https://img.shields.io/github/issues/jfaler/soup.svg)](https://github.com/jfaler/soup/issues)
-[![](https://img.shields.io/twitter/follow/justinfaler.svg?label=Follow&style=social)](https://twitter.com/justinfaler)
-
-</div>
-
----
-
 <p align="center">
   Open source call flooder using Twilio's API.
      <br> 
 </p>
+  
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/Jfaler/soup/blob/master/LICENSE.txt)
+[![](https://img.shields.io/twitter/follow/justinfaler.svg?label=Follow&style=social)](https://twitter.com/justinfaler)
 
 ## 📝 Table of Contents
 
@@ -28,6 +20,8 @@
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 
+## Translations
+:memo: Available Translations: 🇬🇷 [ελληνικά](https://github.com/Jfaler/soup/blob/master/doc/) | 🇫🇷 [Français](https://github.com/Jfaler/soup/blob/master/doc/) | 🇰🇷 [한국어](https://github.com/Jfaler/soup/blob/master/doc/KO_README.md) | 🇨🇳 [普通話](https://github.com/Jfaler/soup/blob/master/doc/) | 🇹🇼 [台灣話](https://github.com/Jfaler/soup/blob/master/doc/) | 🇲🇽 [Español](https://github.com/Jfaler/soup/blob/master/doc/) | 🇹🇷 [Türkçe](https://github.com/Jfaler/soup/blob/master/doc/) | 🇩🇪 [Deutsch](https://github.com/Jfaler/soup/blob/master/doc/) | 🇮🇹 [Italiano](https://github.com/Jfaler/soup/blob/master/doc/) | 🇮🇳 [हिन्दी](https://github.com/Jfaler/soup/blob/master/doc/) | [Arabic](https://github.com/Jfaler/soup/blob/master/doc/) | 🇵🇹 [Português](https://github.com/Jfaler/soup/blob/master/doc/) | 🇷🇺 [Русский язык](https://github.com/Jfaler/soup/blob/master/doc/) | 🇯🇵 [日本語](https://github.com/Jfaler/soup/blob/master/doc/) | 🇻🇳 [tiếng việt](https://github.com/Jfaler/soup/blob/master/doc/)
 
 ## Description 
 
@@ -52,7 +46,7 @@ This type of attack is reffered to as a TDoS or Telephony Denial of Service atta
 
 * <p>Sign up with <a target="_blank" href="https://m.do.co/c/397fb2277475">Digital Ocean</a><img width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
 * Choose Ubuntu 18.04 LTS
-* `ssh root@replace_this_with_your_domain_or_ipaddress.com`
+* `ssh root@replace_this_with_your_domain_or_ipaddress`
 * `sudo git clone https://github.com/Jfaler/soup`
 * `cd /soup/Python`
 * `python3 ./flood.py`
