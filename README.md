@@ -25,7 +25,7 @@
 
 ## Description 
 
-This type of attack is reffered to as a TDoS or Telephony Denial of Service attack.   
+This type of attack is referred to as a TDoS or Telephony Denial of Service attack.   
 
 ## 🎈 Scenarios 
 * Distributed stress testing 
