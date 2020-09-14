@@ -1,2 +1,2 @@
 PHP/* linguist-vendored
-CSHARP/* linguist-vendored
+*.cs linguist-language=Csharp
