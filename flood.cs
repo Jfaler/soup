@@ -43,6 +43,7 @@ namespace CallBomber
             TwilioClient.Init(accountSid, authtoken);
 
             var count = 1;
+            
             // do while loop 
             do
             {
@@ -58,7 +59,6 @@ namespace CallBomber
         }
 
         // Call Function
-
         static void Call(string FromNumber)
         {
             try
